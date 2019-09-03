@@ -3,8 +3,10 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
 
-engine = create_engine('sqlite:///itemcatalog.db',
-                       connect_args={'check_same_thread': False})
+#engine = create_engine('sqlite:///itemcatalog.db', connect_args={'check_same_thread': False})
+
+engine = create_engine('postgresql://catalog:password@localhost/catalog')
+
 
 # Bind the above engine to a session.
 Session = sessionmaker(bind=engine)
