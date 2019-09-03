@@ -83,7 +83,7 @@ This project makes use of Udacity's Linux-based virtual machine (VM) configurati
 10. Open `http://localhost:5000/` in your browser, and start exploring .
 
 ## JSON endpoints
-this application have 3 JSON Endpoints 
+this application has 3 JSON Endpoints 
 
 1. `http://localhost:5000/catalog.json`
     - Return JSON of all the items in the catalog.
